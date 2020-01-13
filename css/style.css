@@ -1,0 +1,62 @@
+/* Global Imports */
+@font-face {
+  font-display: fallback;
+  font-family: "Inter UI";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../assets/fonts/Inter-Regular.woff2") format("woff2"), url("../assets/fonts/Inter-Regular.woff2") format("woff"); }
+
+@font-face {
+  font-display: fallback;
+  font-family: "Inter UI";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../assets/fonts/Inter-SemiBold.woff2") format("woff2"), url("../assets/fonts/Inter-SemiBold.woff") format("woff"); }
+
+:root {
+  --bg-color: #e0e2e2;
+  --primary-text-color: #000;
+  --primary-font: "Inter UI", Arial, "Helvetica Neue", Helvetica, sans-serif; }
+
+/* -- Base Styles  ---------- */
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  scroll-behavior: smooth; }
+  @media only screen and (max-width: 880px) {
+    html {
+      font-size: 56%; } }
+  @media only screen and (max-width: 750px) {
+    html {
+      font-size: 50%; } }
+  @media only screen and (max-width: 700px) {
+    html {
+      font-size: 45%; } }
+  @media only screen and (max-width: 500px) {
+    html {
+      font-size: 40%; } }
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit; }
+
+html * {
+  padding: 0;
+  margin: 0; }
+
+body {
+  font-family: var(--primary-font); }
+
+a,
+a:link,
+a:visited {
+  cursor: pointer;
+  text-decoration: none; }
+
+ul,
+li {
+  list-style: none; }
+
+h1 {
+  font-size: 4rem; }
