@@ -75,7 +75,7 @@
 * ABOUT
 *****/
 .section-container {
-  margin: 8rem 0;
+  margin: 9rem 0;
 }
 .section__heading {
   margin-bottom: 2.4rem;
@@ -89,6 +89,9 @@
   width: 80%;
   font-size: 2.4rem;
   line-height: 1.6;
+  @media screen and (max-width: 750px) {
+    width: 95%;
+  }
 }
 
 /*****
@@ -108,8 +111,6 @@
   }
 }
 .project {
-  &__card {
-  }
   &__img {
     display: inline-block;
     width: 100%;
@@ -127,7 +128,7 @@
   }
 
   &__title {
-    margin-top: 3rem;
+    margin-top: 3.4rem;
     margin-bottom: 1rem;
     font-family: var(--secondary-font);
     font-size: 2.4rem;
@@ -145,10 +146,18 @@
   }
   &__link {
     display: inline-block;
-    border-bottom: 3px solid #333;
+    border-bottom: 2px solid #333;
     color: #333;
     font-size: 2rem;
     font-weight: bold;
+  }
+
+  @media screen and (max-width: 970px) {
+    &__title,
+    &__text,
+    &__links {
+      padding: 0 1rem;
+    }
   }
 }
 

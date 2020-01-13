@@ -129,7 +129,7 @@ li {
 * ABOUT
 *****/
 .section-container {
-  margin: 8rem 0; }
+  margin: 9rem 0; }
 
 .section__heading {
   margin-bottom: 2.4rem;
@@ -142,6 +142,9 @@ li {
   width: 80%;
   font-size: 2.4rem;
   line-height: 1.6; }
+  @media screen and (max-width: 750px) {
+    .section__text {
+      width: 95%; } }
 
 /*****
 * PROJECTS
@@ -172,7 +175,7 @@ li {
     transition: box-shadow 0.2s ease-in; }
 
 .project__title {
-  margin-top: 3rem;
+  margin-top: 3.4rem;
   margin-bottom: 1rem;
   font-family: var(--secondary-font);
   font-size: 2.4rem;
@@ -190,10 +193,14 @@ li {
 
 .project__link {
   display: inline-block;
-  border-bottom: 3px solid #333;
+  border-bottom: 2px solid #333;
   color: #333;
   font-size: 2rem;
   font-weight: bold; }
+
+@media screen and (max-width: 970px) {
+  .project__title, .project__text, .project__links {
+    padding: 0 1rem; } }
 
 /*****
 * CONTACT
