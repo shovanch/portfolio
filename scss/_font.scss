@@ -1,9 +1,9 @@
 @font-face {
   font-family: "Maison Neue";
   font-style: normal;
-  font-weight: normal;
-  src: url("../assets/fonts/MaisonNeue-Book.woff2") format("woff2"),
-    url("../assets/fonts/MaisonNeue-Book.woff") format("woff");
+  font-weight: 500;
+  src: url("../assets/fonts/MaisonNeue-Medium.woff2") format("woff2"),
+    url("../assets/fonts/MaisonNeue-Medium.woff") format("woff");
 }
 
 @font-face {
@@ -15,14 +15,14 @@
 }
 
 @font-face {
-  font-family: "CircuarStd-Book";
+  font-family: "CircularStd";
   font-style: normal;
   font-weight: normal;
   src: url("../assets/fonts/CircularStd-Book.woff2") format("woff2"),
     url("../assets/fonts/CircularStd-Book.woff") format("woff");
 }
 @font-face {
-  font-family: "CircuarStd-Bold";
+  font-family: "CircularStd";
   font-style: normal;
   font-weight: bold;
   src: url("../assets/fonts/CircularStd-Bold.woff2") format("woff2"),
