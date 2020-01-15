@@ -11,6 +11,8 @@
 
 # production
 /build
+.cache/
+public
 
 # misc
 .DS_Store

@@ -8,9 +8,6 @@
     padding-left: 7%;
   }
 }
-// * {
-//   outline: 1px solid red;
-// }
 
 /*****
 * HEADER
@@ -71,9 +68,9 @@
   }
 }
 
-* {
-  outline: 1px solid red;
-}
+// * {
+//   outline: 1px solid red;
+// }
 .wave {
   display: inline-block;
   margin-bottom: 2rem;
@@ -178,14 +175,14 @@
   }
   &__links {
     display: flex;
-    justify-content: space-between;
-    margin-top: 3rem;
+    margin-top: 3.6rem;
   }
   &__link {
     display: inline-block;
-    border-bottom: 2px solid #333;
+    margin-right: 2rem;
+    // border-bottom: 2px solid #333;
     color: #333;
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: bold;
   }
 
@@ -215,4 +212,11 @@
   padding-top: 3rem;
   padding-bottom: 4rem;
   border-top: 1px solid rgba(0, 0, 0, 0.5);
+
+  .header__logo {
+    @media screen and (max-width: 650px) {
+      flex-basis: auto;
+      margin-bottom: 0;
+    }
+  }
 }

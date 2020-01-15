@@ -1,8 +1,6 @@
 {
-  "name": "markup-boilerplate",
+  "name": "portfolio",
   "version": "1.0.0",
-  "description": "Boilerplate for quick markup and design work for projects",
-  "main": "index.js",
   "scripts": {
     "clean": "rm -rf css",
     "compile": "node-sass scss/main.scss css/style.comp.css",
@@ -14,16 +12,7 @@
     "start": "run-p watch:scss serve",
     "prod": "build:css"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/shovanch/markup-boilerplate.git"
-  },
   "author": "Shovan Chatterjee",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/shovanch/markup-boilerplate/issues"
-  },
-  "homepage": "https://github.com/shovanch/markup-boilerplate#readme",
   "devDependencies": {
     "autoprefixer": "^9.7.3",
     "node-sass": "^4.13.0",
